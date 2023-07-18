@@ -1,0 +1,40 @@
+{
+  "name": "mqttdemo",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "antd": "^4.7.0",
+    "mqtt": "^4.3.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "3.4.3"
+  },
+  "scripts": {
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts --openssl-legacy-provider build",
+    "test": "react-scripts --openssl-legacy-provider test",
+    "eject": "react-scripts --openssl-legacy-provider eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "description": "This demo is just for you to learn how to connect to [EMQX Public MQTT Broker](https://www.emqx.com/en/mqtt/public-mqtt5-broker) in React using MQTT.js.",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC"
+}
